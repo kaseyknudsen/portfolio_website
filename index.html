@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasey Knudsen Portfolio Website</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--outer container  -->
+    <div class="container">
+        <!-- circle container -->
+        <div class="circle-container">
+            <!-- innermost div -->
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Kasey Knudsen</h1>
+            <h3>Front End Developer</h3>
+            <p>
+                My Name is Kasey, and I am an aspiring <span id="change-text-color">Front End Developer.</span> I come from a 20 year career
+                as a professional musician, composer, educator and recording artist. I'm fascinated with the commonalities
+                between studying the art of improvisation and the discipline of learning to code. I love 
+                building tools for my music students and seeing my ideas come to life on screen.
+                I can't wait to develop my skills and join a team of like-minded, passionate, driven
+                developers!
+            </p>
+            <img src="/KaseyK.png" alt="Kasey Knudsen">
+        </div>
+        
+        <nav>
+            <ul>
+                <li id="first-li"><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-user"></i> About</li>
+                <li><i class="fas fa-laptop-code"></i> Projects</li>
+                <li><i class="fas fa-envelope"></i> Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
